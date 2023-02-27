@@ -41,7 +41,19 @@ const instance = basicLightbox.create(`
     <h1 class="word">${e.target.alt}</h1>
 	<img src="${e.target.dataset.source}">
 `).show();
-    
+   
 };
 
 
+
+
+
+
+
+// function offDivClick() { 
+// window.addEventListener('keydown', onEscKeyPress);
+// };
+
+// function onEscKeyPress(event) {
+//     console.log(event);
+// }
